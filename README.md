@@ -4,25 +4,15 @@ In this notebook we construct a Gaussian process from scratch, using only numpy 
 
 ## 1D input 1D output example
 
-$X =
-\begin{bmatrix}
-    -4\\
-    -1\\
-     1\\
-     2 
-\end{bmatrix}\qquad$ 
+For example, we model f(x):=sin(x) + N(0,10^-3)
 
-and 
+We gather 4 samples:
 
-$\qquad Y =
-\begin{bmatrix}
-    \text{sin}(-4)+\epsilon\\
-    \text{sin}(-1)+\epsilon\\
-     \text{sin}(1)+\epsilon\\
-     \text{sin}(2)+\epsilon
-\end{bmatrix}$
+X = [-4,-1,1,2]
 
-where $f(x):=\text{sin}(x)$, and $\epsilon \sim \mathcal{N}(0,10^{-3})$
+and then have 
+
+Y = [sin(-4), sin(-1), sin(1), sin(2)] + N(0,10^-3)
 
 ![image](https://user-images.githubusercontent.com/6797764/112169902-841c7e00-8bea-11eb-9c8d-c69b29d90307.png)
 
