@@ -1,5 +1,7 @@
 # Gaussian-Process-from-scratch
 
+![image](https://user-images.githubusercontent.com/6797764/112186659-44a95e00-8bf9-11eb-8c61-4192e56f7a75.png)
+
 In this notebook we construct a Gaussian process from scratch, using only numpy and scipy packages. This is for educational purposes, and although it has a modest performance it is not build for speed. 
 
 ![image](https://user-images.githubusercontent.com/6797764/112177582-fa23e380-8bf0-11eb-94a6-0e047003cad0.png)
